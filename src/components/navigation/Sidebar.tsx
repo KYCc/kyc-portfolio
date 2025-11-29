@@ -32,7 +32,7 @@ export function Sidebar() {
         },
         {
             icon: <img src = {BASE_URL + "/icon-github.png"} alt = "github" className="h-[48px]" />,
-            fullName: "Github",
+            fullName: "GitHub",
             link: "https://github.com/KYCc"
         },
     ]

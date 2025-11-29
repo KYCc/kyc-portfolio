@@ -1,5 +1,25 @@
 @import "tailwindcss";
 
+@font-face {
+    font-family: OptimusPrinceps;
+    src: url("./assets/fonts/OptimusPrinceps.ttf");
+}
+
+@font-face {
+    font-family: OptimusPrincepsBold;
+    src: url("./assets/fonts/OptimusPrincepsSemiBold.ttf");
+}
+
+@font-face {
+    font-family: Matisse;
+    src: url("./assets/fonts/Matisse.otf");
+}
+
+@theme {
+    --font-ds: OptimusPrinceps;
+    --font-ds-bold: OptimusPrincepsBold;
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
