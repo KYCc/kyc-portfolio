@@ -8,14 +8,12 @@ export function ContactPage() {
 
     return (
         <main className="relative min-h-screen w-full bg-[#151e1d] text-gray-100 overflow-hidden content-center pt-50 sm:pt-12 sm:pl-24 md:pl-28 lg:pl-32 px-6 md:px-8 lg:px-12 py-12">
-            {/* subtle radial glow */}
             <div
                 className="absolute -top-24 -left-24 w-96 h-96 rounded-full pointer-events-none opacity-8"
                 style={{ background: "radial-gradient(circle at 20% 20%, rgba(249,204,15,0.045), transparent 30%)" }}
             />
 
             <section className="relative mx-auto max-w-2xl space-y-8">
-                {/* Contact Card */}
                 <div className="rounded-2xl border border-[#f9cc0f]/18 bg-[#0f1412]/70 backdrop-blur-sm p-8 lg:p-12 shadow-2xl">
                     <h1 className="font-ds text-3xl sm:text-4xl lg:text-5xl leading-tight tracking-wider text-[#efe4c6] drop-shadow-md mb-6">
                         Get in Touch

@@ -104,7 +104,7 @@ export function AboutPage() {
                                 key={key}
                                 onMouseEnter={() => setHoveredIndex(s.id)}
                                 onMouseLeave={() => setHoveredIndex(null)}
-                                className={`inline-block rounded-full bg-[#121717] px-4 py-2 text-sm font-medium text-[#efe6d1] border ${hoveredIndex === s.id ? "border-[#f9cc0f]/25" : "border-[#f9cc0f]/12"} transition-colors`}
+                                className={`inline-block rounded-full bg-[#121717] px-4 py-2 text-sm font-medium  border ${hoveredIndex === s.id ? "border-[#f9cc0f]/25 text-white" : "border-[#f9cc0f]/12 text-[#efe6d1]"} transition-colors`}
                             >
                                 {s.name}
                             </span>
