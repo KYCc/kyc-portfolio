@@ -18,17 +18,17 @@ export function Sidebar() {
         {
             icon: <img src = {BASE_URL + "/icon-about.png"} alt = "about" className="h-[48px] mr-[1px]" />,
             fullName: "About",
-            link: "/"
+            link: "#/"
         },
         {
             icon: <img src = {BASE_URL + "/icon-projects.png"} alt = "projects" className="h-[48px] mr-[-4px]" />,
             fullName: "Projects",
-            link: BASE_URL + "/projects"
+            link: "#/projects"
         },
         {
             icon: <img src = {BASE_URL + "/icon-contact.png"} alt = "contact" className="h-[48px]" />,
             fullName: "Contact",
-            link: BASE_URL + "/contact"
+            link: "#/contact"
         },
         {
             icon: <img src = {BASE_URL + "/icon-github.png"} alt = "github" className="h-[48px]" />,

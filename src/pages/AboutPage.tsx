@@ -20,7 +20,6 @@ type skill = {
 }
 
 export function AboutPage() {
-    const BASE_URL: string = import.meta.env.VITE_BASE_URL;
 
     const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
 
@@ -69,13 +68,13 @@ export function AboutPage() {
 
                         <div className="mt-6 flex flex-wrap items-center gap-3">
                             <a
-                                href={BASE_URL + "/projects"}
+                                href={"#/projects"}
                                 className="inline-flex items-center gap-2 rounded-md px-4 py-2 text-sm font-medium text-[#d8d2b5] ring-1 ring-transparent hover:ring-[#f9cc0f]/30 transition-all"
                             >
                                 View projects
                             </a>
                             <a
-                                href={BASE_URL + "/contact"}
+                                href={"#/contact"}
                                 className="inline-flex items-center gap-2 rounded-md px-4 py-2 text-sm font-medium text-[#d8d2b5] ring-1 ring-transparent hover:ring-[#f9cc0f]/30 transition-all"
                             >
                                 Get in touch
