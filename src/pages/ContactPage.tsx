@@ -33,6 +33,15 @@ export function ContactPage() {
                         >
                             kyceuppens@gmail.com
                         </a>
+                        <p className="text-xs uppercase tracking-widest text-[#c9b38a]/85 mb-2 mt-6">
+                            LinkedIn
+                        </p>
+                        <a
+                            href="https://www.linkedin.com/in/kamiel-ceuppens/"
+                            className="text-lg text-[#cfc7b3] hover:text-white transition-colors underline decoration-[#f9cc0f]/30 hover:decoration-[#ffd700]/50"
+                        >
+                            https://www.linkedin.com/in/kamiel-ceuppens/
+                        </a>
                     </div>
                 </div>
             </section>
