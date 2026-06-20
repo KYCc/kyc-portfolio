@@ -8,10 +8,11 @@ import {
     SiReact,
     SiSpring,
     SiTailwindcss,
-    SiTypescript
+    SiTypescript,
+    SiClaude
 } from "react-icons/si"
 import { BiLogoJava } from "react-icons/bi";
-import { FaArrowsSpin } from "react-icons/fa6";
+import {PlaywrightIcon} from "../assets/icons/Icons.tsx";
 
 type skill = {
     id: number
@@ -39,7 +40,8 @@ export function AboutPage() {
         {id: 9, name: "REST", icon: <SiAmazonapigateway color="white"/> },
         {id: 10, name: "Git", icon: <SiGit color="white"/>},
         {id: 11, name: "Docker", icon: <SiDocker color="white"/> },
-        {id: 12, name: "Agile", icon: <FaArrowsSpin color="white"/> }
+        {id: 12, name: "Claude Code", icon: <SiClaude color="white"/> },
+        {id: 13, name: "Playwright", icon: <PlaywrightIcon /> },
     ]
 
     return (

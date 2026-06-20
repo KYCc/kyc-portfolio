@@ -80,6 +80,7 @@ export function Sidebar() {
                 {sidebarItems.map((item, key) => (
                     <a
                         href={item.link}
+                        {...(!item.link.startsWith("#") && { target: "_blank", rel: "noopener noreferrer" })}
                         className="flex flex-row items-center px-2 py-2 rounded-md hover:bg-[#838e88] transition-colors duration-300"
                         key={key}
                     >

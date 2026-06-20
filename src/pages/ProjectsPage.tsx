@@ -28,8 +28,34 @@ export function ProjectsPage() {
             id: 2,
             title: "Claw Game",
             description: "A small game I made for fun with the Godot Engine and my first foray into game development. Control the claw to grab prizes!",
-            technologies: ["Godot Engine", ".NET", "C#", "Blender"],
+            technologies: ["Godot Engine", ".NET", "Blender"],
             link: "https://github.com/KYCc/ClawGame"
+        },
+        // private projects
+        {
+            id: 3,
+            title: "SynCore",
+            description: "Enterprise-grade time registration and planning solution.",
+            technologies: ["Java", "ExtJS", "Claude Code", "PostgreSQL"],
+            link: "https://syntegro.be/"
+        },
+        {
+            id: 4,
+            title: "b.achieved",
+            description: "A 'skill-tree' webapp developed during my internship that visually tracks an employee's progress in the company.",
+            technologies: ["React", "TypeScript", "AWS", "Playwright"]
+        },
+        {
+            id: 5,
+            title: "VR Campus Tour",
+            description: "An immersive VR experience that guides new student through KdG campuses. As well as an admin application to manage the content.",
+            technologies: ["Unity", ".NET", "React", "Oculus/Quest"]
+        },
+        {
+            id: 6,
+            title: "Poker Game",
+            description: "A multiplayer poker webapp featuring game state management and turn-based networking logic, implemented as a learning project.",
+            technologies: ["Spring Boot", "React", "PostgreSQL", "Docker"]
         }
     ];
 

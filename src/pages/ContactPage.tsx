@@ -38,6 +38,8 @@ export function ContactPage() {
                         </p>
                         <a
                             href="https://www.linkedin.com/in/kamiel-ceuppens/"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="text-lg text-[#cfc7b3] hover:text-white transition-colors underline decoration-[#f9cc0f]/30 hover:decoration-[#ffd700]/50"
                         >
                             https://www.linkedin.com/in/kamiel-ceuppens/
